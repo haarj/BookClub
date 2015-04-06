@@ -37,6 +37,7 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [self loadFriends];
+    [self loadWithPredicateFormat:nil];
 }
 
 
@@ -49,13 +50,14 @@
 }
 
 
-//-(void)loadWithPredicateFormat:(NSSet *)set
-//{
-//    NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"books.@count" ascending:YES];
-//    self.sortedFriends = [self.friends sortedArrayUsingDescriptors:@[sortDescriptor]].mutableCopy;
-//    self.filteredFriends = self.sortedFriends;
-//    [self.tableView reloadData];
-//}
+-(void)loadWithPredicateFormat:(NSSet *)set
+{
+    NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"books.@count" ascending:YES];
+    self.sortedFriends = [self.friends sortedArrayUsingDescriptors:@[sortDescriptor]].mutableCopy;
+    self.filteredFriends = self.sortedFriends;
+    NSLog(@"%@", self.filteredFriends);
+    [self.tableView reloadData];
+}
 
 
 
@@ -87,7 +89,7 @@
         ProfileViewController *profileVC = segue.destinationViewController;
         //this allows us to distinguish between which cell we are clicking.
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        self.friend = [self.friends objectAtIndex:indexPath.row];
+        self.friend = [self.filteredFriends objectAtIndex:indexPath.row];
         profileVC.friend = self.friend;
         profileVC.moc = self.moc;
     } else
