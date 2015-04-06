@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		331282F11AD1BA8B00DFC9C2 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 331282F01AD1BA8B00DFC9C2 /* Person.m */; };
+		331282F41AD1CCDC00DFC9C2 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 331282F31AD1CCDC00DFC9C2 /* ProfileViewController.m */; };
+		331282F71AD1EC0900DFC9C2 /* BookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 331282F61AD1EC0900DFC9C2 /* BookViewController.m */; };
 		3335251E1ACC9D470074CBD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3335251D1ACC9D470074CBD6 /* main.m */; };
 		333525211ACC9D470074CBD6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 333525201ACC9D470074CBD6 /* AppDelegate.m */; };
 		333525241ACC9D470074CBD6 /* BookClubChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 333525221ACC9D470074CBD6 /* BookClubChallenge.xcdatamodeld */; };
-		333525271ACC9D470074CBD6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 333525261ACC9D470074CBD6 /* ViewController.m */; };
+		333525271ACC9D470074CBD6 /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 333525261ACC9D470074CBD6 /* FriendsViewController.m */; };
 		3335252A1ACC9D480074CBD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333525281ACC9D480074CBD6 /* Main.storyboard */; };
 		3335252C1ACC9D480074CBD6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3335252B1ACC9D480074CBD6 /* Images.xcassets */; };
 		3335252F1ACC9D480074CBD6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3335252D1ACC9D480074CBD6 /* LaunchScreen.xib */; };
 		3335253B1ACC9D480074CBD6 /* BookClubChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3335253A1ACC9D480074CBD6 /* BookClubChallengeTests.m */; };
+		3335254F1ACCA0DD0074CBD6 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 3335254E1ACCA0DD0074CBD6 /* Book.m */; };
+		333525521ACCA0DE0074CBD6 /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 333525511ACCA0DE0074CBD6 /* Comment.m */; };
+		333525551ACCA0DE0074CBD6 /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = 333525541ACCA0DE0074CBD6 /* Friend.m */; };
+		333525581ACCA5360074CBD6 /* PeopleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 333525571ACCA5360074CBD6 /* PeopleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +35,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		331282EF1AD1BA8B00DFC9C2 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		331282F01AD1BA8B00DFC9C2 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		331282F21AD1CCDC00DFC9C2 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		331282F31AD1CCDC00DFC9C2 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		331282F51AD1EC0900DFC9C2 /* BookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookViewController.h; sourceTree = "<group>"; };
+		331282F61AD1EC0900DFC9C2 /* BookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookViewController.m; sourceTree = "<group>"; };
 		333525181ACC9D470074CBD6 /* BookClubChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookClubChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3335251C1ACC9D470074CBD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3335251D1ACC9D470074CBD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3335251F1ACC9D470074CBD6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		333525201ACC9D470074CBD6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		333525231ACC9D470074CBD6 /* BookClubChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BookClubChallenge.xcdatamodel; sourceTree = "<group>"; };
-		333525251ACC9D470074CBD6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		333525261ACC9D470074CBD6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		333525251ACC9D470074CBD6 /* FriendsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendsViewController.h; sourceTree = "<group>"; };
+		333525261ACC9D470074CBD6 /* FriendsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendsViewController.m; sourceTree = "<group>"; };
 		333525291ACC9D480074CBD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3335252B1ACC9D480074CBD6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3335252E1ACC9D480074CBD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		333525341ACC9D480074CBD6 /* BookClubChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookClubChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		333525391ACC9D480074CBD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3335253A1ACC9D480074CBD6 /* BookClubChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookClubChallengeTests.m; sourceTree = "<group>"; };
+		3335254D1ACCA0DD0074CBD6 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		3335254E1ACCA0DD0074CBD6 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		333525501ACCA0DE0074CBD6 /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
+		333525511ACCA0DE0074CBD6 /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
+		333525531ACCA0DE0074CBD6 /* Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friend.h; sourceTree = "<group>"; };
+		333525541ACCA0DE0074CBD6 /* Friend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Friend.m; sourceTree = "<group>"; };
+		333525561ACCA5360074CBD6 /* PeopleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleViewController.h; sourceTree = "<group>"; };
+		333525571ACCA5360074CBD6 /* PeopleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +106,23 @@
 			children = (
 				3335251F1ACC9D470074CBD6 /* AppDelegate.h */,
 				333525201ACC9D470074CBD6 /* AppDelegate.m */,
-				333525251ACC9D470074CBD6 /* ViewController.h */,
-				333525261ACC9D470074CBD6 /* ViewController.m */,
 				333525281ACC9D480074CBD6 /* Main.storyboard */,
+				331282EF1AD1BA8B00DFC9C2 /* Person.h */,
+				331282F01AD1BA8B00DFC9C2 /* Person.m */,
+				333525561ACCA5360074CBD6 /* PeopleViewController.h */,
+				333525571ACCA5360074CBD6 /* PeopleViewController.m */,
+				333525251ACC9D470074CBD6 /* FriendsViewController.h */,
+				333525261ACC9D470074CBD6 /* FriendsViewController.m */,
+				331282F21AD1CCDC00DFC9C2 /* ProfileViewController.h */,
+				331282F31AD1CCDC00DFC9C2 /* ProfileViewController.m */,
+				331282F51AD1EC0900DFC9C2 /* BookViewController.h */,
+				331282F61AD1EC0900DFC9C2 /* BookViewController.m */,
+				333525531ACCA0DE0074CBD6 /* Friend.h */,
+				333525541ACCA0DE0074CBD6 /* Friend.m */,
+				3335254D1ACCA0DD0074CBD6 /* Book.h */,
+				3335254E1ACCA0DD0074CBD6 /* Book.m */,
+				333525501ACCA0DE0074CBD6 /* Comment.h */,
+				333525511ACCA0DE0074CBD6 /* Comment.m */,
 				3335252B1ACC9D480074CBD6 /* Images.xcassets */,
 				3335252D1ACC9D480074CBD6 /* LaunchScreen.xib */,
 				333525221ACC9D470074CBD6 /* BookClubChallenge.xcdatamodeld */,
@@ -222,9 +257,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3335254F1ACCA0DD0074CBD6 /* Book.m in Sources */,
+				333525551ACCA0DE0074CBD6 /* Friend.m in Sources */,
+				331282F11AD1BA8B00DFC9C2 /* Person.m in Sources */,
+				333525521ACCA0DE0074CBD6 /* Comment.m in Sources */,
+				331282F41AD1CCDC00DFC9C2 /* ProfileViewController.m in Sources */,
+				331282F71AD1EC0900DFC9C2 /* BookViewController.m in Sources */,
 				333525211ACC9D470074CBD6 /* AppDelegate.m in Sources */,
 				3335251E1ACC9D470074CBD6 /* main.m in Sources */,
-				333525271ACC9D470074CBD6 /* ViewController.m in Sources */,
+				333525581ACCA5360074CBD6 /* PeopleViewController.m in Sources */,
+				333525271ACC9D470074CBD6 /* FriendsViewController.m in Sources */,
 				333525241ACC9D470074CBD6 /* BookClubChallenge.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +460,7 @@
 				333525401ACC9D480074CBD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		333525411ACC9D480074CBD6 /* Build configuration list for PBXNativeTarget "BookClubChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +469,7 @@
 				333525431ACC9D480074CBD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
